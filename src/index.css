@@ -14,7 +14,6 @@ code {
     monospace;
 }
 
-
 .main-layout {
   display: flex;
   flex-direction: row;
@@ -27,6 +26,9 @@ nav {
   overflow-y: scroll;
   text-align: center;
   width: 250px;
+
+  scrollbar-width: none;
+  overflow-y: hidden;
 }
 nav ul {
   align-items: center;
