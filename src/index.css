@@ -14,7 +14,6 @@ code {
     monospace;
 }
 
-
 .main-layout {
   display: flex;
   flex-direction: row;
@@ -24,7 +23,8 @@ nav {
   background-color: #363a45;
   height: 100vh;
   margin-right: 15px;
-  overflow-y: scroll;
+  overflow: hidden;
+  min-width: 150px;
   text-align: center;
   width: 250px;
 }
